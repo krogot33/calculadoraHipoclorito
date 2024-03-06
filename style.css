@@ -2,6 +2,10 @@ h1 {
   text-align: center;
 }
 
+.container{
+
+  display: flex;}
+
 #calculadora {
   width: 500px;
   margin: 0 auto;
