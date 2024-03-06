@@ -26,5 +26,5 @@ formulario.addEventListener("submit", (event) => {
   const dosisHipocloritoMLmin = calcularDosisHipoclorito(concentracionCloroDeseada, flujo);
 
   // Mostrar el resultado
-  resultado.innerHTML = `Dosis de hipoclorito: ${dosisHipocloritoMLmin} mL/min`;
+  resultado.innerHTML = `Tasa de hipoclorito: ${dosisHipocloritoMLmin} mL/min`;
 });
