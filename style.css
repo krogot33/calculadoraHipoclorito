@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+
+#calculadora {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#calculadora label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#calculadora input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#calculadora button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #000;
+  color: #fff;
+}
+
+#resultado {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
