@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de hipoclorito de sodio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de hipoclorito de sodio</h1>
+  <form id="calculadora">
+    <label for="concentracion-cloro">Concentración de cloro deseada (mg/L):</label>
+    <input type="number" id="concentracion-cloro" name="concentracion-cloro" required>
+    <br>
+    <label for="flujo">Flujo de agua (L/s):</label>
+    <input type="number" id="flujo" name="flujo" required>
+    <br>
+    <label for="concentracion-hipoclorito">Concentración de hipoclorito de sodio (mg/L):</label>
+    <input type="number" id="concentracion-hipoclorito" name="concentracion-hipoclorito" required>
+    <br>
+    <button type="submit">Calcular</button>
+  </form>
+  <div id="resultado"></div>
+  <script src="script.js"></script>
+</body>
+</html>
