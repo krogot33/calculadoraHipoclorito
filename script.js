@@ -1,4 +1,4 @@
-const calcularDosisHipoclorito = (concentracionCloroDeseada, flujo, concentracionHipoclorito) => {
+const calcularDosisHipoclorito = (concentracionCloroDeseada, flujo) => {
   // Convertir la concentración de cloro deseada a mg/L
   const concentracionCloroDeseadaMgL = concentracionCloroDeseada;
 
@@ -20,10 +20,10 @@ formulario.addEventListener("submit", (event) => {
   // Obtener los valores de los inputs
   const concentracionCloroDeseada = parseFloat(document.getElementById("concentracion-cloro").value);
   const flujo = parseFloat(document.getElementById("flujo").value);
-  const concentracionHipoclorito = parseFloat(document.getElementById("concentracion-hipoclorito").value);
+ 
 
   // Calcular la dosis de hipoclorito
-  const dosisHipocloritoMLmin = calcularDosisHipoclorito(concentracionCloroDeseada, flujo, concentracionHipoclorito);
+  const dosisHipocloritoMLmin = calcularDosisHipoclorito(concentracionCloroDeseada, flujo);
 
   // Mostrar el resultado
   resultado.innerHTML = `Dosis de hipoclorito: ${dosisHipocloritoMLmin} mL/min`;
