@@ -8,11 +8,14 @@
 </head>
 <body>
   <div class=Container>
-  <h1>Calculadora de hipoclorito de sodio</h1>
+    <img src="/imagen.jpg">
+  <h1>Calculadora Desinfección By-pass</h1></div>
+  
   
   <form id="calculadora">
     <label for="concentracion-cloro">Concentración de cloro deseada (mg/l):</label>
-    <input type="number" id="concentracion-cloro" name="concentracion-cloro" required>
+    <input type="number" id="concentracion-cloro" name="concentracion-cloro" required value="5">
+    <br>
     <br>
     <label for="flujo">Flujo de by-pass (l/s):</label>
     <input type="number" id="flujo" name="flujo" required>
@@ -20,7 +23,13 @@
    
     <button type="submit">Calcular</button>
   </form>
+  
+  <div class="container2">
   <div id="resultado"></div>
   <script src="script.js"></script>
+  <br>
+  <h3>Nota: Para ajustar la tasa de dosificación del hipoclorito de sodio al 10%, deberá utilizar una probeta y medir el volumen requerido en 1 minuto  </h3>
+ <!-- <div class="copyright">Desarrollado por NCS</div>-->
+</div>
 </body>
 </html>

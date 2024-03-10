@@ -2,40 +2,84 @@ h1 {
   text-align: center;
 }
 
-.container{
+body{
 
-  display: flex;}
+  
+  justify-content: center;
+  color:blue;
+  align-items: CENTER;
+}
+.Container{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;;
+}
+
+
+
+img{
+
+  width: 5%;
+  height: 5%;
+  
+}
 
 
 #calculadora {
+
   width: 500px;
   margin: 0 auto;
 }
 
 #calculadora label {
-  display: block;
+  display: flex;
   margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  
 }
 
 #calculadora input {
-  width: 100%;
+  width: 75%;
   padding: 5px;
   border: 1px solid #ccc;
 }
 
 #calculadora button {
   margin-top: 10px;
-  padding: 5px 10px;
+  padding: 5px 5px;
   border: 1px solid #ccc;
-  background-color: #000;
+  background-color: BLUE;
   color: #fff;
+  font-weight: 700;
+}
+
+.container2{
+
+  width: 500px;
+  margin: 0 auto;
 }
 
 #resultado {
-  margin-top: 10px;
-  padding: 10px;
+  display:flex;
+  width: 75%;
+  padding: 5px;
   border: 1px solid #ccc;
   text-align: center;
+  justify-content: center;
   font-size:20px;
   font-weight:bold;
+  
+}
+
+h3{
+
+  text-align: justify;
+  font-style: italic;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 10px;
 }
