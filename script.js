@@ -6,7 +6,7 @@ const calcularDosisHipoclorito = (concentracionCloroDeseada, flujo) => {
   const flujoMLs = flujo;
 
   // Calcular la dosis de hipoclorito en mL/min
-  const dosisHipocloritoMLmin = Math.round(concentracionCloroDeseadaMgL * flujoMLs/9800*60*1000);
+  const dosisHipocloritoMLmin = Math.round(concentracionCloroDeseadaMgL * flujoMLs*3.6*16.7/(0.953*1110*0.1));
 
   return dosisHipocloritoMLmin;
 };
